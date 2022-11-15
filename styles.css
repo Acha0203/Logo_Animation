@@ -1,0 +1,29 @@
+.wrapper {
+  position: relative;
+}
+
+.logo-animation {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text-animation {
+  width: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo-shadow {
+  width: 300px;
+  opacity: 0;
+  animation: logo-shadow 2s ease-in both 8s;
+}
+
+@keyframes logo-shadow {
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,352 @@
+<svg width="100%" height="100%" viewBox="0 0 1125 1125" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      #text-wrapper path {
+        fill: #000;
+        stroke: #000;
+        stroke-width: 2px;
+      }
+      #text-wrapper #H {
+        animation: text-01 1s ease-in both 3s;
+      }
+      #text-wrapper #I1 {
+        animation: text-02 1s ease-in both 3.2s;
+      }
+      #text-wrapper #R {
+        animation: text-03 1s ease-in both 3.4s;
+      }
+      #text-wrapper #O1 {
+        animation: text-04 1s ease-in both 3.6s;
+      }
+      #text-wrapper #Y {
+        animation: text-05 1s ease-in both 3.8s;
+      }
+      #text-wrapper #A {
+        animation: text-06 1s ease-in both 4.0s;
+      }
+      #text-wrapper #W {
+        animation: text-07 1s ease-in both 4.2s;
+      }
+      #text-wrapper #E {
+        animation: text-08 1s ease-in both 4.4s;
+      }
+      #text-wrapper #B {
+        animation: text-09 1s ease-in both 4.6s;
+      }
+      #text-wrapper #S {
+        animation: text-10 1s ease-in both 4.8s;
+      }
+      #text-wrapper #T {
+        animation: text-11 1s ease-in both 5.0s;
+      }
+      #text-wrapper #U {
+        animation: text-12 1s ease-in both 5.2s;
+      }
+      #text-wrapper #D {
+        animation: text-13 1s ease-in both 5.4s;
+      }
+      #text-wrapper #I2 {
+        animation: text-02 1s ease-in both 5.6s;
+      }
+      #text-wrapper #O2 {
+        animation: text-04 1s ease-in both 5.8s;
+      }
+      #square-wrapper path {
+        fill: #000;
+        stroke: #000;
+        stroke-width: 2px;
+        animation: square 6s ease-in both 6s;
+      }
+      @keyframes text-01 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 252px;
+          stroke-dashoffset: 252px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-02 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 109px;
+          stroke-dashoffset: 109px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-03 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 266px;
+          stroke-dashoffset: 266px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-04 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 257px;
+          stroke-dashoffset: 257px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-05 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 178px;
+          stroke-dashoffset: 178px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-06 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 235px;
+          stroke-dashoffset: 235px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-07 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 371px;
+          stroke-dashoffset: 371px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-08 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 257px;
+          stroke-dashoffset: 257px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-09 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 288px;
+          stroke-dashoffset: 288px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-10 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 227px;
+          stroke-dashoffset: 227px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-11 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 168px;
+          stroke-dashoffset: 168px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-12 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 228px;
+          stroke-dashoffset: 228px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes text-13 {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 265px;
+          stroke-dashoffset: 265px;
+        }
+        20% {
+          stroke-dashoffset: 0;
+        }
+        30% {
+          fill: transparent;
+        }
+        50% {
+          fill: #000;
+        }
+      }
+      @keyframes square {
+        0% {
+          fill: transparent;
+          stroke-dasharray: 8800px;
+          stroke-dashoffset: 8800px;
+        }
+        20%{
+          stroke-dashoffset: 0;
+        }
+        30%{
+          fill: transparent;
+        }
+        50%{
+          fill: #000;
+        }
+      }
+    </style>
+    <!-- <script><![CDATA[ 
+      window.onload  = () => {
+        console.log(document.getElementById('H').getTotalLength());
+        console.log(document.getElementById('R').getTotalLength());
+        console.log(document.getElementById('O1').getTotalLength());
+        console.log(document.getElementById('Y').getTotalLength());
+        console.log(document.getElementById('A').getTotalLength());
+        console.log(document.getElementById('W').getTotalLength());
+        console.log(document.getElementById('E').getTotalLength());
+        console.log(document.getElementById('B').getTotalLength());
+        console.log(document.getElementById('S').getTotalLength());
+        console.log(document.getElementById('T').getTotalLength());
+        console.log(document.getElementById('U').getTotalLength());
+        console.log(document.getElementById('D').getTotalLength());
+      }
+    ]]></script> -->
+  </defs>
+  <g id="square-wrapper">
+    <path id="square" d="M985.8,985.8L139.5,985.8L139.5,139.5L985.8,139.5L985.8,985.8ZM112.5,1012.5L1012.5,1012.5L1012.5,112.5L112.5,112.5L112.5,1012.5Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+  </g>
+  <g id="text-wrapper">
+    <g transform="matrix(1,0,0,1,864.646,901.524)">
+        <path id="O2" d="M0,-33.56C4.697,-37.996 10.612,-40.213 17.512,-40.213C24.411,-40.213 30.341,-37.996 35.023,-33.56C39.952,-29.124 42.169,-23.441 42.169,-16.788C42.169,-10.119 39.952,-4.698 35.023,-0.016C30.341,4.436 24.658,6.653 17.512,6.653C10.612,6.653 4.944,4.436 0,-0.016C-4.682,-4.698 -6.9,-10.119 -6.9,-16.788C-6.9,-23.441 -4.682,-29.124 0,-33.56M17.758,-33.314C13.076,-33.314 9.133,-31.589 5.93,-28.616C2.464,-25.413 0.986,-21.47 0.986,-16.788C0.986,-12.337 2.464,-8.394 5.93,-5.19C9.133,-1.987 13.076,-0.262 17.758,-0.262C22.194,-0.262 26.152,-1.987 29.355,-5.19C32.559,-8.394 34.284,-12.337 34.284,-16.788C34.284,-21.47 32.559,-25.413 29.355,-28.616C26.152,-31.589 22.194,-33.314 17.758,-33.314" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,644.256)">
+        <rect id="I2" x="843.834" y="217.085" width="7.886" height="46.574" style="fill:rgb(35,31,32);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,794.861,907.931)">
+        <path id="D" d="M0,-46.374L18.99,-46.374C25.89,-46.374 31.558,-44.403 36.009,-39.967C40.691,-35.531 42.909,-30.095 42.909,-23.195C42.909,-16.526 40.691,-11.105 36.009,-6.669C31.558,-2.218 25.643,0 18.744,0L0,0L0,-46.374ZM7.639,-39.474L7.639,-7.162L19.236,-7.162C23.672,-7.162 27.368,-8.64 30.572,-11.597C33.529,-14.555 35.023,-18.497 35.023,-23.195C35.023,-27.877 33.529,-31.82 30.326,-34.777C27.122,-37.996 23.426,-39.474 18.744,-39.474L7.639,-39.474Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,785.85,908.177)">
+        <path id="U" d="M0,-46.62L0,-19.483C0,-13.568 -1.725,-8.64 -5.421,-5.19C-8.871,-1.725 -13.8,0 -20.222,0C-26.383,0 -31.311,-1.725 -35.008,-5.19C-38.458,-8.64 -40.444,-13.568 -40.444,-19.483L-40.444,-46.62L-32.543,-46.62L-32.543,-19.483C-32.543,-15.54 -31.311,-12.583 -29.093,-10.365C-26.876,-8.147 -23.919,-6.915 -19.976,-6.915C-16.264,-6.915 -13.307,-8.147 -11.089,-10.365C-8.871,-12.583 -7.886,-15.54 -7.886,-19.483L-7.886,-46.62L0,-46.62Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,742.121,901.031)">
+        <path id="T" d="M0,-32.574L-14.786,-32.574L-14.786,6.9L-22.687,6.9L-22.687,-32.574L-37.241,-32.574L-37.241,-39.474L0,-39.474L0,-32.574Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,686.64,908.177)">
+        <path id="S" d="M0,-47.113C5.914,-47.113 11.335,-45.388 16.264,-42.185L13.06,-35.531C8.132,-38.242 3.696,-39.72 -0.739,-39.72C-2.973,-39.72 -4.698,-39.227 -6.176,-38.488C-7.408,-37.502 -8.147,-36.517 -8.147,-34.776C-8.147,-33.298 -7.655,-32.066 -6.423,-30.834C-5.19,-29.848 -3.465,-29.109 -1.74,-28.616C0.246,-28.123 2.218,-27.384 4.435,-26.644C6.407,-25.905 8.625,-24.919 10.35,-24.18C12.321,-23.194 13.8,-21.962 15.032,-20.237C16.264,-18.251 16.757,-16.033 16.757,-13.322C16.757,-9.379 15.278,-6.176 11.828,-3.696C8.625,-1.232 4.435,0 -0.739,0C-4.205,0 -7.655,-0.739 -11.105,-1.971C-14.308,-3.45 -17.265,-5.19 -19.729,-7.408L-16.279,-14.061C-14.062,-12.09 -11.351,-10.365 -8.64,-9.133C-5.683,-7.901 -3.219,-7.408 -0.493,-7.408C2.218,-7.408 4.189,-7.901 5.914,-8.886C7.393,-9.872 8.132,-11.351 8.132,-13.076C8.132,-14.554 7.393,-16.033 6.161,-17.018C4.928,-18.251 3.45,-18.99 1.725,-19.483C-0.247,-19.975 -2.233,-20.484 -4.451,-21.223C-6.669,-21.962 -8.64,-22.702 -10.365,-23.687C-12.337,-24.427 -13.815,-25.659 -15.047,-27.63C-16.279,-29.355 -17.019,-31.573 -17.019,-34.037C-17.019,-37.995 -15.54,-41.199 -12.337,-43.663C-9.133,-45.881 -5.19,-47.113 0,-47.113" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,612.157,907.931)">
+        <path id="B" d="M0,-46.374L20.222,-46.374C24.904,-46.374 28.601,-45.388 31.558,-43.417C34.268,-41.446 35.762,-38.488 35.762,-34.777C35.762,-32.312 35.008,-30.095 33.529,-28.123C32.051,-26.398 30.079,-25.166 27.615,-24.427C30.572,-23.934 33.036,-22.702 34.761,-20.731C36.502,-18.497 37.487,-16.033 37.487,-12.83C37.487,-8.887 36.009,-5.683 33.036,-3.45C29.833,-1.232 25.89,0 20.469,0L0,0L0,-46.374ZM7.639,-39.474L7.639,-27.138L19.729,-27.138C22.194,-27.138 24.165,-27.877 25.643,-28.862C26.876,-30.095 27.615,-31.573 27.615,-33.545C27.615,-35.531 26.876,-37.01 25.643,-37.996C24.165,-38.981 22.194,-39.474 19.729,-39.474L7.639,-39.474ZM7.639,-20.484L7.639,-6.915L19.729,-6.915C22.686,-6.915 25.151,-7.655 26.876,-8.887C28.601,-9.872 29.34,-11.597 29.34,-13.815C29.34,-15.787 28.601,-17.512 26.876,-18.497C25.151,-19.729 22.686,-20.484 19.729,-20.484L7.639,-20.484Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,604.047,901.031)">
+        <path id="E" d="M0,-32.574L-25.397,-32.574L-25.397,-19.991L-2.711,-19.991L-2.711,-13.091L-25.397,-13.091L-25.397,-0.262L0.739,-0.262L0.739,6.9L-33.283,6.9L-33.283,-39.474L0,-39.474L0,-32.574Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,552.058,861.557)">
+        <path id="W" d="M0,46.374L-7.886,46.374L-18.99,10.103L-30.095,46.374L-38.227,46.374L-53.52,0L-45.127,0L-33.791,37.487L-22.686,0L-15.047,0L-3.696,37.487L7.393,0L15.54,0L0,46.374Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,458.17,872.169)">
+        <path id="A" d="M0,25.15L-23.426,25.15L-27.861,35.762L-36.009,35.762L-15.54,-10.612L-7.393,-10.612L12.829,35.762L4.435,35.762L0,25.15ZM-2.957,18.25L-11.598,-2.48L-20.469,18.25L-2.957,18.25Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,407.286,877.096)">
+        <path id="Y" d="M0,15.294L0,30.834L-7.901,30.834L-7.901,15.54L-25.166,-15.54L-17.265,-15.54L-3.958,6.9L9.118,-15.54L17.003,-15.54L0,15.294Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,340.03,901.524)">
+        <path id="O1" d="M0,-33.56C4.697,-37.996 10.612,-40.213 17.512,-40.213C24.411,-40.213 30.341,-37.996 35.023,-33.56C39.705,-29.124 42.169,-23.441 42.169,-16.788C42.169,-10.119 39.705,-4.698 35.023,-0.016C30.341,4.436 24.411,6.653 17.512,6.653C10.612,6.653 4.697,4.436 0,-0.016C-4.682,-4.698 -7.146,-10.119 -7.146,-16.788C-7.146,-23.441 -4.682,-29.124 0,-33.56M17.512,-33.314C12.829,-33.314 8.887,-31.589 5.683,-28.616C2.464,-25.413 0.739,-21.47 0.739,-16.788C0.739,-12.337 2.464,-8.394 5.683,-5.19C9.133,-1.987 13.076,-0.262 17.512,-0.262C22.194,-0.262 25.89,-1.987 29.109,-5.19C32.312,-8.394 34.037,-12.337 34.037,-16.788C34.037,-21.47 32.559,-25.413 29.109,-28.616C25.89,-31.589 22.194,-33.314 17.512,-33.314" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,320.713,861.557)">
+        <path id="R" d="M0,46.374L-8.625,32.312L-21.701,32.312L-21.701,46.374L-29.586,46.374L-29.586,0L-10.596,0C-4.682,0 -0.247,1.232 3.203,3.943C6.422,6.654 7.901,10.596 7.901,15.787C7.901,19.483 7.162,22.686 5.437,25.151C3.943,27.63 1.478,29.602 -1.725,30.834L8.887,46.374L0,46.374ZM-21.701,25.397L-10.596,25.397C-3.204,25.397 0.493,22.194 0.493,16.033C0.493,9.857 -3.204,6.9 -10.596,6.9L-21.701,6.9L-21.701,25.397Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,0,644.256)">
+        <rect id="I1" x="273.356" y="217.085" width="7.886" height="46.574" style="fill:rgb(35,31,32);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,263.367,861.557)">
+        <path id="H" d="M0,46.374L-7.639,46.374L-7.639,27.138L-32.297,27.138L-32.297,46.374L-40.183,46.374L-40.183,0L-32.297,0L-32.297,19.976L-7.639,19.976L-7.639,0L0,0L0,46.374Z" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+    </g>
+  </g>
+</svg>
